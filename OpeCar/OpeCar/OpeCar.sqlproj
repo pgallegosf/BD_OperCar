@@ -60,9 +60,26 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Security\" />
+    <Folder Include="seguridad\" />
+    <Folder Include="seguridad\Tables\" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="auditoria\" />
+    <Folder Include="auditoria\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\seguridad.sql" />
     <Build Include="Security\auditoria.sql" />
+    <Build Include="seguridad\Tables\Usuario.sql" />
+    <Build Include="seguridad\Tables\Rol.sql" />
+    <Build Include="seguridad\Tables\Parametro.sql" />
+    <Build Include="dbo\Tables\TipoSeccion.sql" />
+    <Build Include="dbo\Tables\Seccion.sql" />
+    <Build Include="auditoria\Tables\TipoBitacora.sql" />
+    <Build Include="auditoria\Tables\Parametro.sql" />
+    <Build Include="auditoria\Tables\Funcion.sql" />
+    <Build Include="auditoria\Tables\Bitacora.sql" />
+    <Build Include="auditoria\Tables\Aplicacion.sql" />
+    <Build Include="auditoria\Tables\Acceso.sql" />
   </ItemGroup>
 </Project>
