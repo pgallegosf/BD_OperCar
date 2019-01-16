@@ -66,6 +66,8 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="auditoria\" />
     <Folder Include="auditoria\Tables\" />
+    <Folder Include="gDocumental\" />
+    <Folder Include="gDocumental\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Security\seguridad.sql" />
@@ -81,5 +83,9 @@
     <Build Include="auditoria\Tables\Bitacora.sql" />
     <Build Include="auditoria\Tables\Aplicacion.sql" />
     <Build Include="auditoria\Tables\Acceso.sql" />
+    <Build Include="dbo\Tables\DocumentoHist.sql" />
+    <Build Include="gDocumental\Tables\TipoDocumento.sql" />
+    <Build Include="gDocumental\Tables\Documento.sql" />
+    <Build Include="Security\gDocumental.sql" />
   </ItemGroup>
 </Project>
