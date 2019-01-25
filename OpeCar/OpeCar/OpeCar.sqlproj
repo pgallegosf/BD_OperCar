@@ -87,5 +87,7 @@
     <Build Include="gDocumental\Tables\TipoDocumento.sql" />
     <Build Include="gDocumental\Tables\Documento.sql" />
     <Build Include="Security\gDocumental.sql" />
+    <Build Include="seguridad\Tables\Permiso.sql" />
+    <Build Include="auditoria\Tables\AccesoError.sql" />
   </ItemGroup>
 </Project>
